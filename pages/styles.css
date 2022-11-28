@@ -9,6 +9,8 @@ body{
     padding: 0.1rem;
 }
 
+/* aca empiezan los comandos de header*/ 
+
 .header {
     background-color: #34193a;
 }
@@ -24,6 +26,10 @@ body{
 .nav_link:hover{
     opacity: 0.80;
 }
+
+/* aca terminan los comandos de header*/ 
+
+/* aca empiezan los comandos de main*/ 
 
 .prueba_contenido{
     background-color: cyan;
@@ -65,6 +71,10 @@ body{
 .div_cat category1{
     color: midnightblue;
 }
+
+/* aca terminan los comandos de main */
+
+/* aca empiezan los comandos de footer */
 
 #footer {
     background-color: #C590D4;
