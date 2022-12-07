@@ -5,25 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BordadosAnita - Sobre Mi</title>
-    <link rel="shortcut icon" href="../images/WhatsApp Image 2022-10-28 at 16.01.14.jpeg">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../images/Logo_AnitaBordados.jpeg">
 </head>
 
 <body>
 
-    <header id="header">
-        <img src="../images/WhatsApp Image 2022-10-28 at 16.01.14.jpeg" alt="">
-        <h1 class="categories_title">BORDADOS ANITA</h1>
-        <nav>
-            <ul class="nav_List">
-                <li><a class="nav_link" href="categorias.html">Categorias</a></li>
-                <li><a class="nav_link" href="sobre_mi.html">sobre mi</a></li>
-                <li><a class="nav_link" href="opiniones.html">Opiniones</a></li>
-                <li><a class="nav_link" href="contacto.html">Turnos y Contacto</a></li>
-                <li><a class="nav_link" href="../index.html">inicio</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid" id="Logo-Nav">
+                <a class="navbar-brand" href="../index.html" target="_blank"> <img class="img-fluid rounded img-thumbnail" id="img_header" src="../images/Logo_AnitaBordados.jpeg" alt="" ></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="header1" class="nav-link active" aria-current="page" href="../pages/categorias.html" target="_blank">Bordados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="header1" class="nav-link active" aria-current="page" href="../pages/opiniones.html" target="_blank">Opiniones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="header1" class="nav-link active" aria-current="page" href="../pages/sobre_mi.html" target="_blank">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="header1" class="nav-link active" aria-current="page" href="../pages/contacto.html" target="_blank">Pedidos y Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
     </header>
 
 
@@ -38,17 +55,23 @@
     </section>
 
     <footer id="footer">
-        <div class="footer_div_1">
-            <h3>BORDADOS ANITA</h3>
-            <p>Hechos a tu medida</p>
-            <p>Seguime en las redes</p>
+        <div class="row div_padre">
+            <div class="col div1">
+                <div class="div_logo">
+                    <a class="ancla" href="../index.html" target="_blank"> <img class="img-fluid rounded img-thumbnail" src="../images/Logo_AnitaBordados.jpeg" alt="" ></a>
+                </div>
+                <div class="follow">
+                    <p>Seguime en las redes...</p>
+                </div>
             </div>
-        <div class="footer_div_2">
-            <ul class="footer_links">
-                <li><a href="http://www.facebook.com"</a>Facebook</li>
-                <li><a href="http://www.instagram.com"</a>Instagram</li> 
-            </ul>
-        </div>
+            <div class="col container-fluid">
+                <div class="div2">
+                    <a class="link" href="http://www.facebook.com"> <img class="img_foot" src="../images/facebook.svg" alt=""></a>
+                    <a class="link" href="http://www.instagram.com"> <img class="img_foot" src="../images/instagram.svg" alt=""></a>
+                    <a class="link" href="http://www.pinterest.com"> <img class="img_foot" src="../images/pinterest.svg" alt=""></a>
+                </div>
+            </div>
+        </div>           
     </footer> 
 
 </body>
