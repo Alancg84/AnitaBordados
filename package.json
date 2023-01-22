@@ -1,0 +1,20 @@
+{
+  "name": "anita-bordados-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alancg84/AnitaBordados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alancg84/AnitaBordados/issues"
+  },
+  "homepage": "https://github.com/Alancg84/AnitaBordados#readme"
+}
